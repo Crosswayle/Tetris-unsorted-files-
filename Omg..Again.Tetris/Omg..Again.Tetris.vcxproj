@@ -151,13 +151,23 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Field.cpp" />
+    <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="I.cpp" />
+    <ClCompile Include="J.cpp" />
+    <ClCompile Include="L.cpp" />
     <ClCompile Include="Omg..Again.Tetris.cpp" />
+    <ClCompile Include="Q.cpp" />
+    <ClCompile Include="S.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="T.cpp" />
+    <ClCompile Include="Z.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
